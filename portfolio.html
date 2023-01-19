@@ -22,14 +22,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
     <!-- header -->
     <header class="header-border">
       <nav class="main-nav">
-        <a class="main-nav__logo" href="index.html"
-          ><span class="main-nav__logo main-nav__logo--blue">Web</span><span>Studio</span></a
+        <a class="logo" href="index.html"
+          ><span class="logo logo--blue">Web</span><span>Studio</span></a
         >
         <ul class="main-nav__links">
           <li>
@@ -287,27 +287,25 @@
     <!-- footer -->
     <footer class="footnote">
       <div class="container footnote-organizer">
-        <div class="footnote-left">
-          <a class="footnote__logo" href="index.html"
-            ><span>Web</span><span class="footnote__logo footnote__logo--white">Studio</span>
+        <div class="fleft">
+          <a class="logo logo--blue" href="index.html"
+            ><span>Web</span><span class="logo logo--white">Studio</span>
           </a>
-          <address class="footnote__contacts">
-            <ul class="footnote-list">
-              <li class="footnote-list__text">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <address class="fleft__contacts">
+            <ul class="fleft-list">
+              <li class="fleft-list__text">m. Warszawa, Aleje Jerozolimskie 21</li>
               <li>
-                <a class="footnote-list__item" href="mailto:info@devstidio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="fleft-list__item" href="mailto:info@devstidio.com">info@devstudio.com</a>
               </li>
               <li>
-                <a class="footnote-list__item" href="tel:+48111111111">+48 111 111 111</a>
+                <a class="fleft-list__item" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="footnote-middle">
-          <h3 class="footnote__title">dołącz do nas</h3>
-          <ul class="footnote-middle__list">
+        <div class="fmiddle">
+          <h3 class="fmiddle__title">dołącz do nas</h3>
+          <ul class="fmiddle-list">
             <li class="social-media-list__item social-media-list__item--dark">
               <svg class="social-media-list__icon" width="20px" height="20px">
                 <use href="./images/icons.svg#icon-instagram"></use>
@@ -330,10 +328,10 @@
             </li>
           </ul>
         </div>
-        <div class="footnote-right">
+        <div>
           <form class="newsletter">
             <div>
-              <label class="newsletter__label footnote__title" for="nlemail"
+              <label class="newsletter__label fmiddle__title" for="nlemail"
                 >Zapisz się do newslettera
                 <input
                   class="newsletter__input"
@@ -345,9 +343,9 @@
               </label>
             </div>
             <div>
-              <button type="button" class="newsletter__button">
+              <button type="button" class="newsletter-button">
                 Zapisz się
-                <svg class="newsletter__button-icon" width="24px" height="24px">
+                <svg class="newsletter-button__icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>
